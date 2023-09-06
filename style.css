@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(to right, #673a35, #524a3e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+}
+
+/* ***************************** CARD 1 STYLING ***************************** */
+
+.card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    min-width: 250px;
+    width: 470px;
+    background: #fff;
+    position: relative;
+    background: linear-gradient(to right, #000000, #434343);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-1 .content{
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 10px;
+}
+
+
+.card-1 .heading{
+    font-size: 2.0rem;
+    transition: 0.4s;
+    color: #8796a4b8;
+}
+
+.card-1:hover .heading{
+    font-size: 2.8rem;
+    color: #6f7a85;
+}
+
+.card-1 .para{
+    margin-top: 15px;
+    width: 235px;
+    font-size: 1.2rem;
+    transition: 0.4s;
+    opacity: 0;
+    color: #88919b;
+}
+
+.card-1 .btn{
+    margin-top: 15px;
+    padding: 0.2rem 1rem;
+    border: 2px solid #6f7a85;
+    transition: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #6f7a85;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+    opacity: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-1 .btn:hover{
+    background: #6f7a85;
+    color: #ffffffaf;
+}
+
+.card-1:hover .para,
+.card-1:hover .btn{
+    opacity: 1;
+}
+
+.card-1 img{
+    position: absolute;
+    top: -55%;
+    left: 28%;
+    width: 250px;
+    height: auto;
+    transition: 0.4s;
+}
+
+.card-1:hover img{
+    top: -62%;
+    left: 49%;
+    scale: 110%;
+}
+
+/* ***************************** CARD 2 STYLING ***************************** */
+
+.card-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    min-width: 250px;
+    width: 470px;
+    background: #fff;
+    position: relative;
+    background: linear-gradient(to right, #030a1c, #532c2c);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-2 .content{
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 10px;
+    
+}
+
+
+.card-2 .heading{
+    font-size: 2.2rem;
+    transition: 0.4s;
+    color: #8796a4b8;
+    pointer-events: none;
+}
+
+.card-2:hover .heading{
+    font-size: 2.8rem;
+    color: #8796a4;
+}
+
+.card-2 .para{
+    margin-top: 15px;
+    width: 235px;
+    font-size: 1.2rem;
+    transition: 0.4s;
+    opacity: 0;
+    color: #88919b;
+}
+
+.card-2 .btn{
+    margin-top: 15px;
+    padding: 0.2rem 1rem;
+    border: 2px solid #6f7a85;
+    transition: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #6f7a85;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+    opacity: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-2 .btn:hover{
+    background: #6f7a85;
+    color: #ffffffaf;
+}
+
+.card-2:hover .para,
+.card-2:hover .btn{
+    opacity: 1;
+}
+
+.card-2 img{
+    position: absolute;
+    top: -53%;
+    left: 46%;
+    width: 200px;
+    height: auto;
+    transition: 0.4s;
+}
+
+.card-2:hover img{
+    top: -60%;
+    left: 64%;
+    scale: 110%;
+}
+
+h2{
+    position: relative;
+    top: 25%;
+    left: -39%;
+}
